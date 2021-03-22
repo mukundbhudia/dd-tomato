@@ -49,7 +49,7 @@ function Tomato() {
       <div>
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link active" href="#nutrion">
+            <a class="nav-link active" href="#nutrition">
               Nutrition
             </a>
           </li>
