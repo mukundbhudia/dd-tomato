@@ -47,19 +47,19 @@ function Tomato() {
         </div>
       </div>
       <div>
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link active" href="#nutrition">
+        <ul className="nav nav-tabs">
+          <li className="nav-item">
+            <a className="nav-link active" href="#nutrition">
               Nutrition
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#health">
+          <li className="nav-item">
+            <a className="nav-link" href="#health">
               Health benefits
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#storage">
+          <li className="nav-item">
+            <a className="nav-link" href="#storage">
               Storage
             </a>
           </li>
