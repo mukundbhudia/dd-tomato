@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const TabbedContent = () => {
-  let currentTabIndex = 0
+  const [currentTabIndex, setCurrentTabIndex] = useState(0)
+
   const tabData = [
     {
       key: 'nutrition',
@@ -65,6 +66,7 @@ const TabbedContent = () => {
               <li
                 key={tabKey}
                 className="nav-item"
+                onClick={() => setCurrentTabIndex(i)}
               >
                 <a
                   className={`nav-link ${
