@@ -8,7 +8,7 @@ const veggies = {
       There are around 7500 tomato varieties grown for various purposes.
       Heirloom tomatoes are becoming increasingly popular, particularly
       among home gardeners and organic producers, since they tend to produce
-      more interesting and flavorful crops at the cost of disease resistance
+      more interesting and flavourful crops at the cost of disease resistance
       and productivity. In 1973, Israeli scientists developed the world's
       first long shelf-life commercial tomato varieties.
       `,
@@ -48,7 +48,7 @@ const veggies = {
         key: 'nutrition',
         name: 'Nutrition',
         content: `Tomatoes are now eaten freely throughout the world. They contain the
-        carotene ​ lycopene​ , one of the most powerful natural ​
+        carotene ​lycopene​, one of the most powerful natural ​
         antioxidants​ . In some studies, lycopene, especially in cooked
         tomatoes, has been found to help prevent ​ prostate cancer​ , ​
         [36]​ but other research contradicts this claim.​ [37] Lycopene has
@@ -73,14 +73,14 @@ const veggies = {
         in many epidemiological and experimental studies. In addition to its
         antioxidant activity, other metabolic effects of lycopene have also
         been demonstrated. The richest source of lycopene in the diet is
-        tomato and tomato derived products. ​ [40] ​ Tomato consumption has
+        tomato and tomato derived products. [40] ​Tomato consumption has
         been associated with decreased risk of breast cancer, [ ​ 41] ​ head
-        and neck cancers ​ [42] ​ and might be strongly protective against
-        neurodegenerative diseases. ​ [43] ​ [44] ​ [45] ​ Tomatoes, tomato
+        and neck cancers ​[42] and might be strongly protective against
+        neurodegenerative diseases. [43] [44] [45] ​ Tomatoes, tomato
         sauces and puree are said to help ​ lower urinary tract symptoms ​ (
-        B PH ) ​ and may have anticancer properties. ​ [46] ​ Tomato
+        B PH ) and may have anticancer properties. [46] Tomato
         consumption might be beneficial for reducing cardiovascular risk
-        associated with type 2 diabetes. ​ [47]
+        associated with type 2 diabetes. [47]
         `,
       },
       {
@@ -89,9 +89,9 @@ const veggies = {
         content: `
         Tomatoes keep best unwashed at room temperature and out of direct
         sunlight. It is not recommended to refrigerate as this can harm the
-        flavor. [ ​ 48] ​ Tomatoes that are not yet ripe can be kept in a
-        paper bag till ripening. ​ [49] ​ Storing stem down can prolong
-        shelf life. [ ​ 50]
+        flavor. [48] ​ Tomatoes that are not yet ripe can be kept in a
+        paper bag till ripening. [49] Storing stem down can prolong
+        shelf life. [50]
         `,
       },
     ],

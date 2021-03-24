@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 
+const keepUpToDateEndpoint = 'https://mywebsite.com/endpoint/'
+
 const submitFormHandler = (data) => {
-  fetch('https://mywebsite.com/endpoint/', {
+  // TODO: Wire up with endpoint & handle post-submission
+  fetch(keepUpToDateEndpoint, {
     method: 'POST',
     headers: {
       Accept: 'application/json',
@@ -12,6 +15,7 @@ const submitFormHandler = (data) => {
 }
 
 const validateFrom = (name, email) => {
+  // TODO: More advanced email checks & name sanitisation (maybe with regex)
   if (name && name.length <= 100 && email && email.length <= 200) {
     let dataToSubmit = { name, email }
     console.debug(dataToSubmit)
@@ -39,7 +43,7 @@ const UpdatesForm = ({ vegName }) => {
       >
         <div className="form-group row">
           <label htmlFor="inputEmail" className="col-sm-2 col-form-label">
-            Name
+            <strong>Name</strong>
           </label>
           <div className="col-sm-6">
             <input
@@ -56,7 +60,7 @@ const UpdatesForm = ({ vegName }) => {
         </div>
         <div className="form-group row">
           <label htmlFor="inputEmail" className="col-sm-2 col-form-label">
-            E-mail
+            <strong>E-mail</strong>
           </label>
           <div className="col-sm-6">
             <input
@@ -76,10 +80,10 @@ const UpdatesForm = ({ vegName }) => {
             htmlFor="inputEmail"
             className="col-sm-2 col-form-label"
           ></label>
-          <div className="col-sm-6 pr">
+          <div className="col-sm-6">
             <button
               type="button"
-              className="btn btn-link"
+              className="btn btn-link float-right"
               onClick={() => {
                 validateFrom(name, email)
               }}

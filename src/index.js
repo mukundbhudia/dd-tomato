@@ -14,7 +14,7 @@ const tomato = veggies.tomato
 function Tomato() {
   return (
     <div className="container-xl">
-      <div className="row">
+      <div className="row mb-3">
         <div className="col-sm-8">
           <VegInfo vegInfoData={tomato.info} />
         </div>

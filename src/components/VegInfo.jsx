@@ -6,7 +6,11 @@ const VegInfo = ({ vegInfoData }) => {
     <>
       <div className={vegType}>
         <h1>{vegInfoData.title}</h1>
-        <img className="Tomato__image" alt="tomato" src={vegInfoData.image} />
+        <img
+          className={`${vegType}__image`}
+          alt={vegType}
+          src={vegInfoData.image}
+        />
       </div>
       <div className={vegType}>
         <h2>Varieties</h2>
