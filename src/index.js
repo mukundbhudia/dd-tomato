@@ -7,6 +7,7 @@ import TabbedContent from './components/TabbedContent'
 import NutritionInfo from './components/NutritionInfo'
 import VegInfo from './components/VegInfo'
 import veggies from './data/veggies'
+import UpdatesForm from './components/UpdatesForm'
 
 const tomato = veggies.tomato
 
@@ -25,7 +26,12 @@ function Tomato() {
           />
         </div>
       </div>
-      <TabbedContent tabData={tomato.tabData} />
+      <div>
+        <TabbedContent tabData={tomato.tabData} />
+      </div>
+      <div className="mt-4">
+        <UpdatesForm vegName="tomato" />
+      </div>
     </div>
   )
 }
