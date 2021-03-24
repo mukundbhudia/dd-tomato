@@ -14,10 +14,10 @@ function Tomato() {
   return (
     <div className="container-xl">
       <div className="row">
-        <div className="col-sm-7">
-          <VegInfo />
+        <div className="col-sm-8">
+          <VegInfo vegInfoData={tomato.info} />
         </div>
-        <div className="col-sm-5">
+        <div className="col-sm-4">
           <NutritionInfo
             vegNutritionData={tomato.nutritionalInfo.data}
             vegType={tomato.nutritionalInfo.type}
