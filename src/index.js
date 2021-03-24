@@ -6,7 +6,9 @@ import './styles.css'
 import TabbedContent from './components/TabbedContent'
 import NutritionInfo from './components/NutritionInfo'
 import VegInfo from './components/VegInfo'
-import { tomato } from './data/veggies.json'
+import veggies from './data/veggies'
+
+const tomato = veggies.tomato
 
 function Tomato() {
   return (
@@ -23,7 +25,7 @@ function Tomato() {
           />
         </div>
       </div>
-      <TabbedContent />
+      <TabbedContent tabData={tomato.tabData} />
     </div>
   )
 }
